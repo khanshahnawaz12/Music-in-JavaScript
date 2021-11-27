@@ -2,7 +2,7 @@
 for (var i = 0; i < document.querySelectorAll(".drum").length; i++) {
 
     document.querySelectorAll("button")[i].addEventListener("click", function () {
-        var audio = new Audio('sounds/crash.mp3');
+        var audio = new Audio('sounds/kick-bass.mp3');
         audio.play();
     }
     );
