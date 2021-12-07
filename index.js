@@ -1,7 +1,7 @@
 //Mouse button click
 var numberofDrumButton = document.querySelectorAll(".drum").length;
 
-for(var i=0; i<= numberofDrumButton; i++){
+for(var i=0; i< numberofDrumButton; i++){
 
     document.querySelectorAll("button")[i].addEventListener("click",
         function () 
